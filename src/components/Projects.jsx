@@ -4,9 +4,9 @@ import { FiExternalLink, FiGithub, FiX } from 'react-icons/fi'
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null)
-
+ 
   const projects = [
-    {
+    {  
       id: 1,
       title: 'E-Commerce Platform',
       category: 'Frontend',

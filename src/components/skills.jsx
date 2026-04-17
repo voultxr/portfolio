@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { SiReact, SiJavascript, SiTypescript, SiHtml5, SiCss3, SiNodedotjs, SiGit, SiFigma, SiAdobephotoshop, SiAdobepremierepro, SiAdobeaftereffects } from 'react-icons/si'
 
+
 const Skills = () => {
   const frontendSkills = [
     { name: 'React', icon: SiReact, color: '#61dafb' },

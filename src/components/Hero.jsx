@@ -2,12 +2,12 @@ import React, { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Environment, ContactShadows, Float } from '@react-three/drei'
 import { motion } from 'framer-motion'
-
+ 
 // ✅ Правильные импорты с относительными путями:
 import ParticleField from '../models/ParticleField'
 import FloatingShapes from '../models/FloatingShapes'
 import LaptopModel from '../models/LaptopModel'
-
+ 
 const Hero = () => {
   return (
     <section id="home" className="section" style={{ 

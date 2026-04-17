@@ -6,11 +6,11 @@ import { FiMenu, FiX } from 'react-icons/fi'
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenu, setMobileMenu] = useState(false)
-
+ 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50)
-    }
+    } 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])

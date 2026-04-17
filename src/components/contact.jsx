@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { FiMail, FiMapPin, FiSend, FiCheck } from 'react-icons/fi'
 import { SiTelegram, SiGithub, SiLinkedin, SiBehance } from 'react-icons/si'
 
+
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
   const [status, setStatus] = useState('idle') // idle, sending, success, error

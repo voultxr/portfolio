@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
 import { SiTelegram, SiGithub, SiLinkedin, SiBehance, SiDribbble } from 'react-icons/si'
 
+
 const Footer = () => {
   const currentYear = new Date().getFullYear()
   
